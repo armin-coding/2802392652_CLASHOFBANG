@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash of BaNG - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>C<span class="small-letter">LASH OF</span> B<span class="small-letter">A</span>NG</h1>
+            <div id="loginBtn" class="header-login">Login</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li> <li><a href="troops.html">Troops</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="gallery-section">
+            <h2>Community Gallery</h2>
+            <p>Explore fan art, official artwork, and epic moments from our members.</p>
+            
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="assets/challenge.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Dark Troop Challenge</h3>
+                    <p>Watch this epic 3-star attack using nothing but Dark Elixir troops!</p>
+                </div>
+
+
+                <div class="gallery-item">
+                    <img src="assets/barbarian-king.jpg" alt="Barbarian King Art">
+                    <h3>The Immortal King</h3>
+                    <p>A massive, immortal Barbarian with a giant sword, ready to lead the charge.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/archer-queen.jpg" alt="Archer Queen Art">
+                    <h3>Queen's Stealth</h3>
+                    <p>Sniper of the battlefield, dealing massive damage from afar.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/grand-warden.jpg" alt="Grand Warden Art">
+                    <h3>Warden's Aura</h3>
+                    <p>The veteran scholar who protects and boosts his fellow troops.</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/minion-art.jpg" alt="Minion Official Art">
+                    <h3>Minion Splash Art</h3>
+                    <p>Official in-game artwork of the fast, unarmored flying attacker.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/hogrider-art.jpg" alt="Hog Rider Official Art">
+                    <h3>Hog Rider Splash Art</h3>
+                    <p>Official in-game artwork of the iconic wall-jumping warrior.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/valkyrie-art.jpg" alt="Valkyrie Official Art">
+                    <h3>Valkyrie Splash Art</h3>
+                    <p>Official in-game artwork of the fierce, axe-wielding combatant.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/golem-art.jpg" alt="Golem Official Art">
+                    <h3>Golem Splash Art</h3>
+                    <p>Official in-game artwork of the massive stone behemoth tank.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/witch-art.jpg" alt="Witch Official Art">
+                    <h3>Witch Splash Art</h3>
+                    <p>Official in-game artwork of the dark magic skeleton summoner.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/bowler-art.jpg" alt="Bowler Official Art">
+                    <h3>Bowler Splash Art</h3>
+                    <p>Official in-game artwork of the blue, boulder-tossing brute.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/lavahound-art.jpg" alt="Lava Hound Official Art">
+                    <h3>Lava Hound Splash Art</h3>
+                    <p>Official in-game artwork of the burning beast of the skies.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/pekka-art.jpg" alt="P.E.K.K.A Official Art">
+                    <h3>P.E.K.K.A Splash Art</h3>
+                    <p>Official in-game artwork of the heavy-hitting armored knight.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/dragon-art.jpg" alt="Dragon Official Art">
+                    <h3>Dragon Splash Art</h3>
+                    <p>Official in-game artwork of the scaly terror of the skies.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/electrodragon-art.jpg" alt="Electro Dragon Official Art">
+                    <h3>Electro Dragon Splash Art</h3>
+                    <p>Official in-game artwork of the devastating chain-lightning beast.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p class="contact-heading">Contact Info:</p>
+                <p>Daniel Sebastian Winata</p>
+                <p><a href="mailto:daniel.winata003@binus.ac.id">daniel.winata003@binus.ac.id</a></p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2026 Clash of BaNG Community. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="bgMusic" loop>
+        <source src="assets/theme-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicToggle" class="music-btn">Play Theme</button>
+
+
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Clan Login</h2>
+            <div class="form-group">
+                <label for="loginEmail">Email:</label>
+                <input type="text" id="loginEmail" placeholder="Enter saved email">
+            </div>
+            <div class="form-group">
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" placeholder="Enter saved password">
+            </div>
+            <div class="form-group">
+                <button id="submitLogin" class="login-submit-btn">Login</button>
+            </div>
+            <span id="loginError" class="error-message"></span>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
